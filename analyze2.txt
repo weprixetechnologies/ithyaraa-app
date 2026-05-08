@@ -1,0 +1,17 @@
+Analyzing custom...                                             
+
+warning • Unused import: 'package:flutter/foundation.dart' • lib/features/product_detail/custom/data/datasources/custom_product_remote_datasource.dart:2:8 • unused_import
+warning • Unused import: 'package:ithyaraaapp/core/theme/app_text_styles.dart' • lib/features/product_detail/custom/presentation/pages/custom_product_pdp.dart:4:8 • unused_import
+  error • The getter 'wishlistItems' isn't defined for the type 'WishlistState' • lib/features/product_detail/custom/presentation/pages/custom_product_pdp.dart:90:40 • undefined_getter
+  error • 1 positional argument expected by 'toggleWishlist', but 0 found • lib/features/product_detail/custom/presentation/pages/custom_product_pdp.dart:132:21 • not_enough_positional_arguments
+  error • The named parameter 'productID' isn't defined • lib/features/product_detail/custom/presentation/pages/custom_product_pdp.dart:132:21 • undefined_named_parameter
+  error • The named parameter 'productName' isn't defined • lib/features/product_detail/custom/presentation/pages/custom_product_pdp.dart:133:21 • undefined_named_parameter
+  error • The getter 'imageUrl' isn't defined for the type 'ProductImageEntity' • lib/features/product_detail/custom/presentation/pages/custom_product_pdp.dart:243:62 • undefined_getter
+   info • Use the null-aware operator '?.' rather than an explicit 'null' comparison • lib/features/product_detail/custom/presentation/pages/custom_product_pdp.dart:247:28 • prefer_null_aware_operators
+  error • The method 'toJson' isn't defined for the type 'DressTypeEntity' • lib/features/product_detail/custom/presentation/pages/custom_product_pdp.dart:247:87 • undefined_method
+  error • Target of URI doesn't exist: 'package:ithyaraaapp/core/network/dio_client.dart' • lib/features/product_detail/custom/presentation/providers/custom_product_provider.dart:2:8 • uri_does_not_exist
+  error • Undefined name 'dioClientProvider' • lib/features/product_detail/custom/presentation/providers/custom_product_provider.dart:10:25 • undefined_identifier
+   info • Unnecessary use of 'toList' in a spread • lib/features/product_detail/custom/presentation/widgets/custom_inputs_form.dart:33:59 • unnecessary_to_list_in_spreads
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/product_detail/custom/presentation/widgets/image_upload_zone.dart:93:39 • deprecated_member_use
+
+13 issues found. (ran in 1.3s)
